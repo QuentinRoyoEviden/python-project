@@ -15,6 +15,26 @@ for host in hosts:
         os.system(f"ping -c 3 {host}")
 
 def verifier_port(host, port):
+<<<<<<< HEAD
+=======
+    """
+    she tries to connect to a network port on a specific host and returns the connection code. 
+    
+    Parameters
+    --------------
+
+    host : string
+        it is an IP address
+
+    port : integer
+        it is a network port (example : 80 SSH, 443 HTTP,...)
+
+    Return
+    -------------
+    return value is an integer
+        return a connection code (0 is good, another is bad)
+    """
+>>>>>>> c5ce0df (descriptions added for functions)
     try: 
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.settimeout(5)
@@ -24,6 +44,26 @@ def verifier_port(host, port):
         return -1
 
 def log(message, fichier):
+<<<<<<< HEAD
+=======
+    """
+    she displays a message and writes it to a file 
+
+    Parameters
+    --------------
+
+    message : string
+        it is a text that will be saved
+
+    fichier : string
+        it is a file object where message will be written 
+
+    Return
+    -------------
+    return value is a string
+        no return
+    """
+>>>>>>> c5ce0df (descriptions added for functions)
     print(message)
     fichier.write(message + "\n")
 
