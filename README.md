@@ -1,3 +1,4 @@
+
 # Network Monitor (Network Monitoring Script)
 
 A simple Python script for monitoring the availability of network devices and the status of their critical ports.
@@ -23,3 +24,4 @@ Simply run the script with Python:
 
 python3 script_name.py
 ~
+Pour lancer un de ses scripts, il suffit de faire ./nom_du_script.py
