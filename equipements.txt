@@ -1,0 +1,5 @@
+# hostname;ip_address;environment;role;ports
+web-prod-01;45.60.99.155;production;frontend;80,443,22
+web-prod-02;192.168.10.22;production;frontend;80,443,22
+db-preprod-01;192.168.20.15;preproduction;database;5432,22,9100
+monitoring-dev-01;192.168.30.10;development;monitoring;22,3000,9090,9100
